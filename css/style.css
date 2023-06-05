@@ -2,3 +2,4 @@
 @import "layout.css"; /* макет  */
 @import "content.css"; /* контент / содержимое  */
 @import "responsive.css";/* адаптивность */
+@import "ekskyrsii.css";/* стили для экрана с экскурсиями */

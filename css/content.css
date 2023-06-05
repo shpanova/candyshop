@@ -33,23 +33,46 @@ p{
   line-height: 26px;
 }
 
+
+h1{
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58px;
+}
+
+
 h2{
   font-size: 40px;
   font-weight: 600;
   line-height: 48px;
 }
 
-h3{
+h4{
   font-size: 28px;
   font-weight: 600;
   line-height: 33px;
   text-align: center;
 }
 
-h4{
+h5{
   font-size: 24px;
   font-weight: 600;
   line-height: 29px;
+}
+
+.btext{
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38px;
+}  /* для текста во 2 меню */
+
+.etext{
+  font-weight: 400;
+  line-height: 34px;
+} /* для регуляр текста размером в 24 */
+
+#white{
+  color: white;
 }
 
 #grey{
@@ -58,6 +81,14 @@ h4{
 
 #otstup{
   padding-top: 16px;
+}
+
+#semibold{
+  font-weight: 600;
+}
+
+#left{
+  text-align: left;
 }
 
 /* _________________________конфетки___________________________ */
@@ -71,10 +102,10 @@ h4{
 }
 
 .wow{
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
   position: absolute;
   display: flex;
   top: 76%;
@@ -91,7 +122,7 @@ h4{
   top: -18%;
 }
 
-/* __________________________меню____________________________ */
+/* __________________________меню и футер____________________________ */
 
 .menu{
   margin-top: 40px;
@@ -107,6 +138,58 @@ h4{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.foter{
+  margin-bottom: 48px;
+  margin-top: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu2{
+  margin-top: 72px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.knopki{
+  margin-top: 40px;
+}
+
+.knopka1{
+  background-color: black;
+}
+
+.knopka2{
+  background-color: #EDEDED;
+}
+
+.knopka1, .knopka2{
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: none;
+  border-radius: 40px;
+  margin-right: 16px;
+}
+
+hr{
+  background-color: #D1D1D1;
+  border: none;
+  color: #D1D1D1;
+  height: 1px;
+  width: 100%;
+  margin-top: 56px;
+}
+
+.cryg{
+  height: 40px;
+  position: absolute;
+  top: 206px
 }
 
 /* __________________________главный экран____________________________ */
@@ -200,7 +283,7 @@ h4{
 
  .t3{
   width: 33%;
-  border: 1px solid #EAEAEA;
+  border: 1px solid #F2F2F2;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -210,12 +293,12 @@ h4{
   height: 36vw;
   flex: 1 1 auto;
   margin: 0 5px;
-
+  box-shadow: 4px 6px 13px 0px rgba(0, 0, 0, .1);
 }
 
 .t1, .t2{
   width: 50%;
-  border: 1px solid #EAEAEA;
+  border: 1px solid #F2F2F2;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -225,6 +308,7 @@ h4{
   height: 36vw;
   flex: 1 1 auto;
   margin: 0 5px;
+  box-shadow: 4px 6px 13px 0px rgba(0, 0, 0, .1);
 }
 
 .t12{
@@ -242,8 +326,8 @@ h4{
 .btn2{
   padding-top:22px;
   padding-bottom: 22px;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 100px;
+  padding-right: 100px;
   border-radius: 40px;
   background-color: black;
   border: none;
@@ -255,4 +339,37 @@ h4{
 
 .bl3{
   margin-top: 80px;
+}
+
+.bll3{
+  margin-top: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.plbtn{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 16px;
+}
+
+.plakat23{
+  display: flex;
+  flex-direction: row;
+}
+
+.plakat1, .plakat2, .plakat3{
+  width: 50%;
+  border-radius: 24px;
+}
+
+.plakat2{
+  margin-right: 16px;
+}
+
+.plakat2, .plakat3{
+  opacity: 0.3;
 }
