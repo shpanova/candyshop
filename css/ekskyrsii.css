@@ -14,6 +14,9 @@ body{
   margin: 0 auto;
 }
 
+.e3, .e4, .e5{
+  margin-top: 64px;
+}
 /* __________________________кнопки____________________________ */
 
 .book{
@@ -49,7 +52,7 @@ body{
   background-color: white;
 }
 
-.etext, .etext1, .etext2, .etext3{
+.etext, .etext1, .etext2, .etext3, .etext4{
   font-weight: 400;
   line-height: 34px;
 }
@@ -83,10 +86,6 @@ body{
 
 /* _____________________3 секция слайдеры__________________________ */
 
-.e3{
-  margin-top: 64px;
-}
-
 .clyd1{
   margin-top: 48px;
   display: flex;
@@ -114,7 +113,7 @@ body{
 }
 
 @keyframes sll-move {
-  0% {margin-left: -3872px;}
+  0% {margin-left: -3888px;}
   100% {margin-left: 0px;}
 }
 
@@ -139,34 +138,31 @@ body{
 
 /* _____________________2 этап создания__________________________ */
 
-.e4{
-  margin-top: 64px;
-}
-
 .clyd2{
   display: flex;
   flex-direction: column;
-}
-
-.e2{
-  width: 100%;
-  border-radius: 40px;
-}
-
-.e22, .e222{
-  position: relative;
-  display: flex;
-  height: 20vw;
-  border-radius: 40px;
-  margin-right: 16px;
-
+  margin-top: 48px;
 }
 
 .cl1{
   display: flex;
   flex-direction: row;
   margin-top: 16px;
+  justify-content: space-between;
 }
+
+.ef2{
+  width: 100%;
+  border-radius: 40px;
+}
+
+.ef, .ef1{
+  display: flex;
+  border-radius: 40px;
+  margin-right: 16px;
+  width: 30%;
+}
+
 
 .etext3{
   width: 100%;
@@ -179,5 +175,63 @@ body{
   box-shadow: 4px 6px 13px 0px rgba(0, 0, 0, .1);
   border: 1px solid #F2F2F2;
   background-color: white;
+}
 
+/* _____________________3 этап создания__________________________ */
+
+.clyd3{
+  margin-top: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.el{
+  width: 50%;
+  height: auto;
+  border-radius: 40px;
+}
+
+.ell{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  margin-left: 16px;
+}
+
+.etext4{
+  width: 100%;
+  height: 40%;
+  display: flex;
+  position: relative;
+  padding-top: 56px;
+  padding-bottom: 56px;
+  padding-left: 36px;
+  border-radius: 24px;
+  box-shadow: 4px 6px 13px 0px rgba(0, 0, 0, .1);
+  border: 1px solid #F2F2F2;
+  background-color: white;
+}
+
+.el4{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.l4,.l44{
+  margin-top: 16px;
+  width: 50%;
+  border-radius: 40px;
+}
+
+.l44{
+  padding-left: 4px;
+}
+
+.l4{
+  padding-right: 4px;
 }
