@@ -14,7 +14,7 @@ body{
   margin: 0 auto;
 }
 
-.e3, .e4, .e5{
+.e3, .e4, .e5, .e6, .e7, .e8, .e9{
   margin-top: 64px;
 }
 /* __________________________кнопки____________________________ */
@@ -52,7 +52,7 @@ body{
   background-color: white;
 }
 
-.etext, .etext1, .etext2, .etext3, .etext4{
+.etext, .etext1, .etext2, .etext3, .etext4, .etext5{
   font-weight: 400;
   line-height: 34px;
 }
@@ -97,7 +97,7 @@ body{
   display: flex;
   width: 7744px;
   animation-play-state: running;
-  animation: sll-move 17s linear infinite;
+  animation: sll-move 20s linear infinite;
 }
 
 .sl1, .sl2, .sl3, .sl4, .sl5, .sl6, .sl7, .sl8, .sl9, .sl10, .sl11, .sl12{
@@ -123,17 +123,24 @@ body{
   margin-top: 24px;
 
 }
-
-.etext1, .etext2{
+.etext2{
   padding: 44px;
   border-radius: 24px;
   box-shadow: 4px 6px 13px 0px rgba(0, 0, 0, .1);
   border: 1px solid #F2F2F2;
   background-color: white;
+  width: 100%;
+  margin-left: 16px;
 }
 
 .etext1{
-    margin-right: 16px
+  padding-top: 44px;
+  padding-left: 44px;
+  border-radius: 24px;
+  box-shadow: 4px 6px 13px 0px rgba(0, 0, 0, .1);
+  border: 1px solid #F2F2F2;
+  background-color: white;
+  width: 70%;
 }
 
 /* _____________________2 этап создания__________________________ */
@@ -234,4 +241,125 @@ body{
 
 .l4{
   padding-right: 4px;
+}
+
+/* _____________________4 этап создания__________________________ */
+
+.clyd4{
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+}
+
+.etext5{
+  width: 100%;
+  height: 40%;
+  display: flex;
+  position: relative;
+  padding-top: 56px;
+  padding-bottom: 56px;
+  padding-left: 36px;
+  border-radius: 24px;
+  box-shadow: 4px 6px 13px 0px rgba(0, 0, 0, .1);
+  border: 1px solid #F2F2F2;
+  background-color: white;
+  margin-top: 16px;
+}
+
+.j1{
+  border-radius: 40px;
+}
+
+/* _____________________релакс_________________________ */
+
+.clip1{
+  display: flex;
+  width: 3872px;
+  animation-play-state: running;
+  animation: sll1-move 9s linear infinite;
+}
+
+.sl1, .sl2, .sl3, .sl4, .sl5, .sl6, .sl7, .sl8, .sl9, .sl10, .sl11, .sl12{
+  height: 410px;
+  position: relative;
+  display: flex;
+  margin-right: 16px;
+  border-radius: 40px;
+}
+
+.clip1:hover {
+  animation-play-state: paused;
+}
+
+@keyframes sll1-move {
+  0% {margin-left: -1944px;}
+  100% {margin-left: 0px;}
+}
+
+/* _____________________магазин_________________________ */
+
+.shop{
+  margin-top: 48px;
+  border-radius: 40px;
+  width: 100%;
+}
+
+.shb{
+  display: flex;
+  flex-direction: column;
+}
+
+.sh{
+  margin-top: -90px;
+  margin-left: 30px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-left: 48px;
+  padding-right: 48px;
+  border-radius: 40px;
+  border: none;
+  background-color: white;
+  color: black;
+  display: flex;
+  position: absolute;
+}
+
+/* _____________________гид_________________________ */
+
+.gid{
+  margin-top: 48px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 44px;
+  border-radius: 40px;
+  box-shadow: 4px 6px 13px 0px rgba(0, 0, 0, .1);
+  border: 1px solid #F2F2F2;
+  background-color: white;
+}
+
+.kn{
+  width: 40%;
+}
+
+.gi{
+  display: flex;
+  flex-direction: column;
+}
+
+.gib{
+  margin-top: 40px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-left: 48px;
+  padding-right: 48px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  border-radius: 40px;
+  border: none;
+  background-color: #F3525C;
+  color: white;
 }
