@@ -1,0 +1,62 @@
+*{
+  box-sizing: border-box;
+}
+
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: 'Inter', sans-serif;,  sans-serif;
+}
+
+body{
+ overflow-x: hidden;
+}
+
+.all{
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.katall{
+  margin-top: 64px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+
+}
+/* __________________________каталоги____________________________ */
+
+.kat12, .kat34, .kat56{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.kat34{
+  margin-right: 16px;
+  margin-left: 16px;
+}
+
+.kat1, .kat2, .kat3, .kat4, .kat5, .kat6{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 72px;
+  height: 37vw;
+  border-radius: 40px;
+  box-shadow: 4px 6px 13px 0px rgba(0, 0, 0, .1);
+  border: 1px solid #F2F2F2;
+  background-color: white;
+}
+
+.kat2, .kat4, .kat6{
+  margin-top: 16px;
+}
+
+.kbox1{
+  width: 60%;
+  margin-top: 80px;
+}
+
+.kbox2{
+  margin-top: 46px;
+  width: 60%;
+}
