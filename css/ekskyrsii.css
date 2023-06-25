@@ -24,9 +24,6 @@ body{
   padding-bottom: 22px;
   padding-left: 40px;
   padding-right: 40px;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 29px;
   border-radius: 40px;
   border: none;
   background-color: #F3525C;
@@ -38,7 +35,7 @@ body{
 .ek1{
   display: flex;
   flex-direction: column;
-  margin-top: 72px;
+  margin-top: 64px;
 }
 
 .e1{

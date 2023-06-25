@@ -1,0 +1,109 @@
+*{
+  box-sizing: border-box;
+}
+
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: 'Inter', sans-serif;,  sans-serif;
+}
+
+body{
+ overflow-x: hidden;
+}
+
+.all{
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.merchall{
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* __________________________плашки при наведении____________________________ */
+
+.kat1:hover, .kat2:hover, .kat3:hover, .kat4:hover, .kat5:hover, .kat6:hover{
+  background-color: #ECECEC;
+  border-color: #ECECEC;
+  box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0);
+}
+
+.m1:hover, .m2:hover, .m3:hover, .m4:hover, .m5:hover{
+  background-color: #ECECEC;
+  border-color: #ECECEC;
+  box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0);
+}
+/* __________________________каталоги____________________________ */
+
+.m12, .m345{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.m345{
+  margin-top: 16px;
+}
+
+.m1, .m2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  height: 52vw;
+  border-radius: 40px;
+  box-shadow: 4px 6px 13px 0px rgba(0, 0, 0, .1);
+  border: 1px solid #F2F2F2;
+  background-color: white;
+}
+
+.m3, .m4, .m5{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  height: 32vw;
+  border-radius: 40px;
+  box-shadow: 4px 6px 13px 0px rgba(0, 0, 0, .1);
+  border: 1px solid #F2F2F2;
+  background-color: white;
+  width: 100%;
+}
+
+.m4, .m5{
+  margin-left: 16px;
+}
+
+.m1{
+  width: 60%;
+}
+
+.m2{
+  width: 40%;
+  margin-left: 16px;
+}
+
+.hudi{
+  width: 80%;
+}
+
+.tel{
+  width: 40%;
+  margin-top: 5vw;
+}
+
+.kepka{
+  width: 80%;
+  margin-top: 2vw;
+}
+
+.znachki{
+  margin-top: 4vw;
+  width: 70%;
+}
+
+.bloknot{
+  width: 36%;
+  margin-top: 2vw;
+}
