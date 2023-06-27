@@ -27,7 +27,7 @@ body{
   position: absolute;
   display: flex;
   width: 32vw;
-  margin-top: 36vw;
+  margin-top: 64px;
   border-radius: 24px;
 }
 

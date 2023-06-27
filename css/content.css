@@ -418,6 +418,13 @@ hr{
   box-shadow: 4px 6px 13px 0px rgba(0, 0, 0, .1);
 }
 
+.bonus{
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
 .t1, .t2{
   width: 50%;
   border: 1px solid #F2F2F2;
@@ -489,4 +496,8 @@ hr{
 
 .plakat2, .plakat3{
   opacity: 0.3;
+}
+
+.plakat2:hover, .plakat3:hover{
+  opacity: 1;
 }

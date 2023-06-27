@@ -20,7 +20,6 @@ $(document).ready(function(){
 
   function parallaxScroll(){
       var scrolled = $(window).scrollTop();
-      $('.p1').css('top',(0-(scrolled*.25))+'px');
       $('.p2').css('top',(0-(scrolled*.2))+'px');
       $('.p3').css('top',(0-(scrolled*.9))+'px');
       $('.p4').css('top',(0-(scrolled*.7))+'px');
