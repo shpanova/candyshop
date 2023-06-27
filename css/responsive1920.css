@@ -1,181 +1,280 @@
-@media all and (min-device-width: 1919px) {
+@media all and (min-width: 1920px) {
   a{
-    color: red;
-  }
+      color: red;
+      font-size: 30px;
+    }
 
-  h1{
-    font-size: 64px;
-    line-height: 77px;
-  }
+    h1{
+      font-size: 64px;
+      line-height: 77px;
+    }
 
-  h2{
-    font-size: 54px;
-    line-height: 65px;
-  }
+    h2{
+      font-size: 54px;
+      line-height: 65px;
+    }
 
-  h3{
-    font-size: 42px;
-    line-height: 52px;
-  }
+    h3{
+      font-size: 42px;
+      line-height: 52px;
+    }
 
-  h4{
+    h4{
+      font-size: 36px;
+      line-height: 44px;
+    }
+
+    p{
+      font-size: 28px;
+      line-height: 39px;
+    }
+
+    #butws{
+      font-size: 32px;
+      line-height: 39px;
+    }
+
+    .btext{
+      font-size: 42px;
+      line-height: 52px;
+    }
+
+    #but{
+      font-size: 32px;
+      line-height: 39px;
+    }
+
+    #otstup{
+      padding-top: 24px;
+    }
+
+    /* __________меню________ */
+
+    .menu2{
+      margin-top: 88px;
+    }
+
+    .knopka1, .knopka2{
+      padding-top: 28px;
+      padding-bottom: 28px;
+      padding-left: 64px;
+      padding-right: 64px;
+      border-radius: 100px;
+    }
+
+    .knopki{
+      margin-top: 48px;
+    }
+
+    hr{
+      margin-top: 64px;
+    }
+
+    .cryg{
+      height: 64px;
+      position: absolute;
+      top: 250px;
+      animation-name: cryg1a;
+      animation-timing-function: linear;
+      animation-duration: 7s;
+      animation-iteration-count: infinite;
+    }
+    /* __________главная страница________ */
+
+
+    .btn1{
+      padding-top:24px;
+      padding-bottom: 24px;
+      padding-left: 72px;
+      padding-right: 72px;
+      margin-top: 48px;
+      border-radius: 100px;
+    }
+
+    .pl1, .pl2, .pl3, .pl4{
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 50px;
+      padding-right: 50px;
+      border-radius: 80px;
+    }
+
+    .nav{
+      width: 640px;
+    }
+
+    .menu{
+      margin-top: 80px;
+    }
+
+    .logo{
+      width: 10vw;
+    }
+
+    .utp{
+      padding-left: 64px;
+    }
+
+    .wow{
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 32px;
+      padding-right: 32px;
+      top: 76%;
+      left: 16%;
+      background-color: white;
+      border-radius: 40px;
+    }
+
+
+    .bl2, .bl3{
+      margin-top: 100px;
+    }
+
+    .bll3{
+      margin-top: 72px;
+    }
+
+    .t1, .t2, .t3{
+      padding-top: 80px;
+    }
+
+    .tovar1{
+      margin-top: 72px;
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 100%;
+    }
+
+    .box1, .box2, .card{
+      padding-bottom: 48px;
+    }
+
+    .btn3{
+      padding-top:24px;
+      padding-bottom: 24px;
+      padding-left: 160px;
+      padding-right: 160px;
+      margin-top: 40px;
+      border-radius: 100px;
+    }
+
+    .btn2{
+      padding-top:24px;
+      padding-bottom: 24px;
+      padding-left: 160px;
+      padding-right: 160px;
+      margin-top: 24px;
+      border-radius: 100px;
+    }
+
+      /* __________экскурсии________ */
+
+  .etext{
     font-size: 36px;
+    font-weight: 400;
     line-height: 44px;
   }
 
-  a{
-    font-size: 26px;
-  }
+   .etext1, .etext2, .etext3, .etext4, .etext5{
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 44px;
+      padding-left: 56px;
+      }
 
-  p{
-    font-size: 28px;
-    line-height: 39px;
-  }
+  .etext2{
+      margin-left: 24px;
+      }
 
-  #butws{
-    font-size: 32px;
-    line-height: 39px;
-  }
 
-  .btext{
-    font-size: 42px;
-    line-height: 52px;
-  }
-
-  #but{
-    font-size: 32px;
-    line-height: 39px;
-  }
-
-  #otstup{
-    padding-top: 24px;
-  }
-
-  /* ____________меню__________ */
-
-  .menu2{
+  .ek1{
     margin-top: 88px;
   }
 
-  .knopka1, .knopka2{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 48px;
-    padding-right: 48px;
-    border-radius: 100px;
-    margin-right: 40px;
+    .e2{
+      margin-top: 48px;
+    }
+
+    .e3, .e4, .e5, .e6, .e7, .e8, .e9{
+      margin-top: 88px;
+    }
+
+    .video{
+      padding-top: 28px;
+      padding-bottom: 28px;
+      padding-left: 64px;
+      padding-right: 64px;
+      border-radius: 100px;
+    }
+
+    .clyd1, .clyd2, .clyd3, .clyd4, .clyd5, .gid {
+      margin-top: 56px;
+    }
+
+    .sl1, .sl2, .sl3, .sl4, .sl5, .sl6, .sl7, .sl8, .sl9, .sl10, .sl11, .sl12{
+      height: 560px;
+    }
+
+    .et3{
+      margin-top: 32px;
+    }
+
+    .gid{
+        padding: 56px;
+    }
+
+    .avt{
+      font-size: 32px;
+      line-height: 39px;
+    }
+
+    .sh, .book, .gib, .gib1, .backbtn{
+      padding-top: 28px;
+      padding-bottom: 28px;
+      padding-left: 64px;
+      padding-right: 64px;
+      border-radius: 100px;
+    }
+
+    .veb, .katall, .merchall{
+      margin-top: 96px;
+    }
+
+    /* __________404________ */
+  .oups{
+    font-size: 120px;
+    line-height: 150px;
+    margin-top: 5vw;
   }
 
-  .knopki{
-    margin-top: 48px;
-  }
-
-  hr{
-    margin-top: 64px;
-  }
-
-  .cryg{
-    height: 64px;
-    position: absolute;
-    top: 250px;
-    animation-name: cryg1a;
-    animation-timing-function: linear;
-    animation-duration: 7s;
-    animation-iteration-count: infinite;
-  }
-  /* ____________главная страница__________ */
-
-
-  .btn1{
-    padding-top:24px;
-    padding-bottom: 24px;
-    padding-left: 72px;
-    padding-right: 72px;
-    margin-top: 48px;
-    border-radius: 100px;
-  }
-
-  .pl1, .pl2, .pl3, .pl4{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-    border-radius: 80px;
-  }
-
-  .nav{
-    width: 540px;
-  }
-
-  .menu{
-    margin-top: 80px;
-  }
-
-  .logo{
-    width: 10vw;
-  }
-
-  .utp{
-    padding-left: 64px;
-  }
-
-  .wow{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 32px;
-    padding-right: 32px;
-    top: 76%;
-    left: 16%;
-    background-color: white;
-    border-radius: 40px;
-  }
-
-
-  .bl2, .bl3{
-    margin-top: 100px;
-  }
-
-  .bll3{
-    margin-top: 72px;
-  }
-
-  .t1, .t2, .t3{
-    padding-top: 80px;
-  }
-
-  .tovar1{
-    margin-top: 72px;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
-
-  .box1, .box2, .card{
-    padding-bottom: 48px;
-  }
-
-  .btn3{
-    padding-top:24px;
-    padding-bottom: 24px;
-    padding-left: 160px;
-    padding-right: 160px;
+  .gib2{
+    padding-top: 28px;
     margin-top: 40px;
+    padding-bottom: 30px;
+    width: 30vw;
     border-radius: 100px;
-  }
-
-  .btn2{
-    padding-top:24px;
-    padding-bottom: 24px;
-    padding-left: 160px;
-    padding-right: 160px;
-    margin-top: 24px;
-    border-radius: 100px;
+    font-size: 32px;
+    line-height: 32px;
   }
 
 
+}
 
+@media all  and (min-width: 768px) and (max-width:1259px) {
+  a{
+      color: green;
+      font-size: 30px;
+    }
 
+}
+
+@media all and (max-width: 767px){
+  a{
+      color: yellow;
+      font-size: 30px;
+    }
 
 }
