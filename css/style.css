@@ -1,10 +1,12 @@
 @import "reset.css";/* сбрoc настроек браузера */
 @import "layout.css"; /* макет  */
 @import "content.css"; /* контент / содержимое  */
-@import "responsive.css";/* адаптивность */
+@import "responsive1920.css";/* адаптивность */
 @import "ekskyrsii.css";/* стили для экрана с экскурсиями */
 @import "katalogcandy.css";/* стили для экрана с конфетами */
 @import "katalogmerch.css";/* стили для экрана с мерчем */
 @import "tovar.css";/* стили для стр товара */
 @import "s404.css";/* стили для 404 стр */
 @import "plakat.css";/* стили для 404 стр */
+@import "vebplakat.css";/* стили для 404 стр */
+@import "interaktiv.css";

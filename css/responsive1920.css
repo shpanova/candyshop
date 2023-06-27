@@ -1,0 +1,181 @@
+@media all and (min-device-width: 1919px) {
+  a{
+    color: red;
+  }
+
+  h1{
+    font-size: 64px;
+    line-height: 77px;
+  }
+
+  h2{
+    font-size: 54px;
+    line-height: 65px;
+  }
+
+  h3{
+    font-size: 42px;
+    line-height: 52px;
+  }
+
+  h4{
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  a{
+    font-size: 26px;
+  }
+
+  p{
+    font-size: 28px;
+    line-height: 39px;
+  }
+
+  #butws{
+    font-size: 32px;
+    line-height: 39px;
+  }
+
+  .btext{
+    font-size: 42px;
+    line-height: 52px;
+  }
+
+  #but{
+    font-size: 32px;
+    line-height: 39px;
+  }
+
+  #otstup{
+    padding-top: 24px;
+  }
+
+  /* ____________меню__________ */
+
+  .menu2{
+    margin-top: 88px;
+  }
+
+  .knopka1, .knopka2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 48px;
+    padding-right: 48px;
+    border-radius: 100px;
+    margin-right: 40px;
+  }
+
+  .knopki{
+    margin-top: 48px;
+  }
+
+  hr{
+    margin-top: 64px;
+  }
+
+  .cryg{
+    height: 64px;
+    position: absolute;
+    top: 250px;
+    animation-name: cryg1a;
+    animation-timing-function: linear;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+  }
+  /* ____________главная страница__________ */
+
+
+  .btn1{
+    padding-top:24px;
+    padding-bottom: 24px;
+    padding-left: 72px;
+    padding-right: 72px;
+    margin-top: 48px;
+    border-radius: 100px;
+  }
+
+  .pl1, .pl2, .pl3, .pl4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 80px;
+  }
+
+  .nav{
+    width: 540px;
+  }
+
+  .menu{
+    margin-top: 80px;
+  }
+
+  .logo{
+    width: 10vw;
+  }
+
+  .utp{
+    padding-left: 64px;
+  }
+
+  .wow{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 32px;
+    padding-right: 32px;
+    top: 76%;
+    left: 16%;
+    background-color: white;
+    border-radius: 40px;
+  }
+
+
+  .bl2, .bl3{
+    margin-top: 100px;
+  }
+
+  .bll3{
+    margin-top: 72px;
+  }
+
+  .t1, .t2, .t3{
+    padding-top: 80px;
+  }
+
+  .tovar1{
+    margin-top: 72px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .box1, .box2, .card{
+    padding-bottom: 48px;
+  }
+
+  .btn3{
+    padding-top:24px;
+    padding-bottom: 24px;
+    padding-left: 160px;
+    padding-right: 160px;
+    margin-top: 40px;
+    border-radius: 100px;
+  }
+
+  .btn2{
+    padding-top:24px;
+    padding-bottom: 24px;
+    padding-left: 160px;
+    padding-right: 160px;
+    margin-top: 24px;
+    border-radius: 100px;
+  }
+
+
+
+
+
+}

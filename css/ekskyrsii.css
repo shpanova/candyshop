@@ -42,7 +42,8 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 44px;
+  align-items: center;
+  padding: 3vw;
   border-radius: 40px;
   box-shadow: 4px 6px 13px 0px rgba(0, 0, 0, .1);
   border: 1px solid #F2F2F2;
@@ -51,7 +52,7 @@ body{
 
 .etext, .etext1, .etext2, .etext3, .etext4, .etext5{
   font-weight: 400;
-  line-height: 34px;
+  line-height: 32px;
 }
 
 /* _____________________2 секция фото с облетом пространства__________________________ */

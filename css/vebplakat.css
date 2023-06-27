@@ -1,0 +1,244 @@
+*{
+  box-sizing: border-box;
+}
+
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: 'Inter', sans-serif;,  sans-serif;
+}
+
+body{
+ overflow-x: hidden;
+}
+
+.all1{
+  width: 90vw;
+  margin: 0 auto;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.foter3{
+  margin-bottom: 48px;
+  margin-top: 80px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* __________________________все____________________________ */
+
+.veb{
+  margin-top: 64px;
+}
+
+.veball{
+  display: flex;
+  flex-direction: row;
+}
+
+.veb1{
+  display: flex;
+  flex-direction: column;
+  width: 36%;
+}
+
+.veb2{
+  display: flex;
+  flex-direction: column;
+  width: 34%;
+  margin-left: 1vw;
+}
+
+.veb3{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background-color: #BA4D4D;
+  margin-left: 1vw;
+  border-radius: 24px;
+}
+
+.logo2{
+  height: 10vw;
+  background-color: #973054;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.lg2{
+  display: flex;
+  width: 60%;
+
+}
+
+
+.kd{
+  display: flex;
+  width: 22vw;
+  animation-name: kda;
+  animation-timing-function: linear;
+  animation-duration: 1.6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes kda{
+  50% {transform: scale(1.1) rotate(7deg)}
+}
+
+.zg, .zg2, .zg3{
+  animation-name: zg1a;
+  animation-timing-function: linear;
+  animation-duration: 1.6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes zg1a{
+  50% {transform: scale(0.9); opacity: 0.5}
+}
+
+.konfeta{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1vw;
+  background-color: #FFEBD0;
+  border-radius: 24px;
+  height: 29vw;
+
+}
+
+.kkk3{
+  background-color: #E59937;
+  border-radius: 24px;
+  height: 10vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.kkk{
+  width: 7vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  animation-name: kkk1a;
+  animation-timing-function: linear;
+  animation-duration: 1.6s;
+  animation-iteration-count: infinite;
+}
+
+
+.kkk1{
+  width: 7vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  animation-name: kkk11a;
+  animation-timing-function: linear;
+  animation-duration: 1.6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes kkk1a{
+  100% {transform: rotate(360deg)}
+}
+
+@keyframes kkk11a{
+  100% {transform: rotate(-360deg)}
+}
+
+.eye3{
+  margin-top: 1vw;
+  background-color: #973054;
+  border-radius: 24px;
+  height: 16vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.eye33{
+  animation-name: eye33a;
+  animation-timing-function: linear;
+  animation-duration: 1.6s;
+  animation-iteration-count: infinite;
+  width: 8vw;
+}
+
+.eye331{
+  animation-name: eye331a;
+  animation-timing-function: linear;
+  animation-duration: 1.6s;
+  animation-iteration-count: infinite;
+    width: 8vw;
+}
+
+@keyframes eye33a {
+  25% {transform: translateY(-48px)}
+  50% {transform: translateY(0px)}
+  75% {transform: translateY(48px)}
+  100% {transform: translateY(0px)}
+}
+
+@keyframes eye331a {
+  25% {transform: translateY(48px)}
+  50% {transform: translateY(0px)}
+  75% {transform: translateY(-48px)}
+  100% {transform: translateY(0px)}
+}
+
+.bt3{
+  margin-top: 1vw;
+  background-color: #3C95D8;
+  border-radius: 24px;
+  height: 12vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.eye33{
+  width: 8vw;
+}
+
+.vebtn{
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  border-radius: 200px;
+  border: none;
+  background-color: white;
+}
+
+.avt{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+}
+
+.zg{
+  width: 6vw;
+  transform: rotate(-26deg);
+  margin-left: 5vw;
+  margin-top: 3vw;
+}
+
+.zg2{
+  width: 6vw;
+  transform: rotate(26deg);
+  margin-left: 16vw;
+  margin-top: -5vw;
+}
+
+.zg3{
+  width: 6vw;
+  transform: rotate(-26deg);
+  margin-left: 5vw;
+  margin-top: -5vw;
+}
