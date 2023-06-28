@@ -174,7 +174,7 @@ body{
   animation-timing-function: linear;
   animation-duration: 1.6s;
   animation-iteration-count: infinite;
-    width: 8vw;
+  width: 8vw;
 }
 
 @keyframes eye33a {

@@ -210,7 +210,7 @@
       border-radius: 100px;
     }
 
-    .clyd1, .clyd2, .clyd3, .clyd4, .clyd5, .gid {
+    .clyd1, .clyd2, .clyd3, .clyd4, .clyd5, .gid, .shop {
       margin-top: 56px;
     }
 
@@ -223,7 +223,7 @@
     }
 
     .gid{
-        padding: 56px;
+      padding: 56px;
     }
 
     .avt{
@@ -263,15 +263,25 @@
 
 }
 
-@media all  and (min-width: 768px) and (max-width:1259px) {
+@media all  and (min-width: 768px) and (max-width:1380px) {
   a{
     color: green;
     font-size: 16px;
   }
 
+  h1{
+    font-size: 30px;
+    line-height: 34px;
+  }
+
   h2{
     font-size: 22px;
     line-height: 27px;
+  }
+
+  h3{
+    font-size: 20px;
+    line-height: 24px;
   }
 
   h4{
@@ -284,7 +294,17 @@
     line-height: 22px;
   }
 
+  .btext{
+    font-size: 24px;
+    line-height: 29px;
+  }
+
   #butws{
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  #but{
     font-size: 18px;
     line-height: 22px;
   }
@@ -300,6 +320,29 @@
 
   .nav{
     width: 360px;
+  }
+
+
+
+  .knopka1, .knopka2{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 100px;
+  }
+
+  .knopki{
+    margin-top: 32px;
+  }
+
+  hr{
+    margin-top: 48px;
+  }
+
+  .cryg{
+    height: 38px;
+    top: 160px;
   }
 
   .logo{
@@ -452,12 +495,562 @@
   padding-left: 4px;
 }
 
+.plakatiki, .ek1{
+  margin-top: 48px;
+}
+
+
+.p1{
+  position: absolute;
+  display: flex;
+  width: 40vw;
+  border-radius: 16px;
+  margin-top: 0px;
+}
+
+.p2{
+  position: absolute;
+  display: flex;
+  width: 40vw;
+  right: 5vw;
+  margin-top: 72vw;
+  opacity: 0.6;
+  border-radius: 16px;
+}
+
+.p3{
+  position: absolute;
+  display: flex;
+  width: 36vw;
+  right: 22vw;
+  margin-top: 120vw;
+  border-radius: 24px;
+  border: 1px solid #EDEDED;
+  border-radius: 16px;
+}
+
+.p4{
+  width: 28vw;
+  left: 10vw;
+  margin-top:150vw;
+  border-radius: 8px;
+}
+
+.p6{
+  width: 32vw;
+  left: 26vw;
+  margin-top: 180vw;
+  opacity: 0.5;
+  border-radius: 16px;
+}
+
+.p5{
+  width: 38vw;
+  right: 5vw;
+  margin-top: 200vw;
+  border-radius: 16px;
+}
+
+.p7{
+  width: 28vw;
+  left: 10vw;
+  margin-top: 260vw;
+  border-radius: 8px;
+}
+
+.p9{
+  width: 40vw;
+  right: 10vw;
+  margin-top: 340vw;
+  border: 1px solid #EDEDED;
+  border-radius: 16px;
+}
+
+.p8{
+  width: 32vw;
+  right: 46vw;
+  margin-top: 288vw;
+  opacity: 0.6;
+  border-radius: 16px;
+}
+
+.a3, .a4{
+  position: absolute;
+  margin-top:190vw;
+  padding-bottom: 48px;
+}
+
+/* __________экскурсия________ */
+.etext{
+  font-size: 16px;
+  line-height: 19px;
+}
+
+ .etext1, .etext2, .etext3, .etext4, .etext5{
+   font-size: 16px;
+   line-height: 19px;
+  }
+
+  .etext2{
+    padding-top: 24px;
+    padding-left: 24px;
+    border-radius: 16px;
+    margin-left: 8px;
+    width:460px;
+  }
+
+  .etext1{
+    padding-top: 24px;
+    border-radius: 16px;
+    padding-left: 24px;
+  }
+
+  .etext3{
+    padding-top: 24px;
+    border-radius: 16px;
+    padding-left: 24px;
+    padding-right: 0px;
+  }
+
+  .etext4{
+    padding-top: 24px;
+    border-radius: 16px;
+    padding-left: 24px;
+    width: 100%;
+    padding-right: 7vw;
+  }
+
+  .etext5{
+    padding-top: 24px;
+    border-radius: 16px;
+    padding-left: 24px;
+    padding-right: 0px;
+    padding-bottom: 24px;
+  }
+
+  .e1{
+    border-radius: 16px;
+    padding: 24px;
+  }
+
+  .e2{
+      margin-top: 24px;
+  }
+
+    .e3, .e4, .e5, .e6, .e7, .e8, .e9{
+      margin-top: 48px;
+    }
 
 
 
+    .clyd1, .clyd2, .clyd3, .clyd4, .clyd5, .gid, .shop {
+      margin-top: 32px;
+    }
+
+    .sl1, .sl2, .sl3, .sl4, .sl5, .sl6, .sl7, .sl8, .sl9, .sl10, .sl11, .sl12{
+      height: 300px;
+    }
+
+    .et3{
+      margin-top: 16px;
+    }
+
+    .gid{
+        padding: 56px;
+    }
+
+    .avt{
+      font-size: 32px;
+      line-height: 39px;
+    }
+
+    .sh, .gib, .gib1, .backbtn{
+      padding-top: 16px;
+      padding-bottom: 16px;
+      padding-left: 44px;
+      padding-right: 44px;
+      border-radius: 100px;
+    }
+
+    .gib{
+      margin-top: 24px;
+    }
+
+    .book{
+      padding-top: 16px;
+      padding-bottom: 16px;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+    .veb, .katall, .merchall{
+      margin-top: 96px;
+    }
+
+    .video, .sh{
+      padding-top: 16px;
+      padding-bottom: 16px;
+      padding-left: 30px;
+      padding-right: 30px;
+      border-radius: 100px;
+      margin-top: -74px;
+      margin-left: 3vw;
+    }
+
+  .ef, .ef1, .ef2, .l4, .l44, .j1, .shop{
+    border-radius: 16px;
+  }
+
+  .l4,.l44{
+    margin-top: 8px;
+    width: 50%;
+  }
+
+  .el{
+    height: 34vw;
+    border-radius: 16px;
+  }
+
+  .gid{
+    padding: 32px;
+    border-radius: 16px;
+  }
 
 
 
+/* ____________о конфетах___________ */
+  .veball, .intall{
+  flex-direction: column;
+  }
+
+  .veb{
+    margin-top: 48px;
+  }
+
+  .veb1, .veb2, .veb3, .int1, .int2, .int3{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .logo2, .logo3{
+    height: 20vw;
+    border-radius: 16px;
+  }
+
+  .lg2{
+    width: 50%;
+  }
+
+  .kd{
+    width: 32vw;
+  }
+
+  .konfeta, .cvet{
+    margin-top: 1vw;
+    border-radius: 16px;
+    height: 44vw;
+  }
+
+  .kkk3, .kkk4{
+    border-radius: 16px;
+    margin-top: 1vw;
+    height: 20vw;
+  }
+
+  .kkk, .kkk1{
+    width: 12vw;
+    margin-left: 48px;
+    margin-left: 48px;
+  }
+
+  .eye3, .kof{
+    border-radius: 16px;
+    height: 20vw;
+  }
+
+  .eye33, .eye331{
+    width: 14vw;
+    margin-left: 32px;
+    margin-left: 32px;
+  }
+
+  @keyframes eye33a {
+    25% {transform: translateY(-28px)}
+    50% {transform: translateY(0px)}
+    75% {transform: translateY(28px)}
+    100% {transform: translateY(0px)}
+  }
+
+  @keyframes eye331a {
+    25% {transform: translateY(28px)}
+    50% {transform: translateY(0px)}
+    75% {transform: translateY(-28px)}
+    100% {transform: translateY(0px)}
+  }
+
+  .bt3, .bt4{
+    margin-top: 1vw;
+    border-radius: 16px;
+    height: 18vw;
+  }
+
+  .vebtn{
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    border-radius: 200px;
+  }
+
+  .avt{
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .veb3{
+    margin-top: 1vw;
+    margin-left: 1vw;
+    border-radius: 16px;
+    height: 32vw;
+    flex-direction: row;
+    width: 100%;
+    padding-right: 0px;
+    justify-content: center;
+  }
+
+  .int3{
+    margin-top: 1vw;
+    margin-left: 1vw;
+    border-radius: 16px;
+    height: 36vw;
+    padding-right: 0px;
+  }
+
+.zg2{
+    width: 10vw;
+    transform: rotate(50deg);
+    margin-left: 14vw;
+    margin-top: 2vw;
+}
+
+.zg3{
+    width: 10vw;
+    transform: rotate(-50deg);
+    margin-left: 14vw;
+    margin-top: 3vw;
+}
+
+  .zg{
+    width: 10vw;
+    transform: rotate(-50deg);
+    margin-top: 3vw;
+  }
+
+  .ramka1{
+    padding-left: 8vw;
+    padding-right: 8vw;
+    width: 80%;
+    height: 24vw;
+  }
+
+.kry, .krr, .krf{
+  width: 12vw;
+  height: 12vw;
+}
+
+.knp{
+  width: 40vw;
+}
+
+.ramka2{
+  flex-direction: row;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  width: 80%;
+  height: 24vw;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+  background-color: #121212;
+  border-radius: 10px;
+  border: 1px solid #252525;
+}
+
+.i1{
+  width: 16vw;
+}
+
+.i2{
+  width: 12vw;
+}
+
+.i3{
+  width: 14vw;
+}
+
+/* ____________каталог___________ */
+
+  .katall, .merchall{
+    margin-top: 48px;
+  }
+
+  .kat12, .kat34, .kat56{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .katall{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .kat2, .kat4, .kat6{
+    margin-top: 0px;
+    margin-left: 1vw;
+  }
+
+  .kat34{
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .kat34, .kat56{
+    margin-top: 1vw;
+  }
+
+  .kat1, .kat2, .kat3, .kat4, .kat5, .kat6{
+    padding-top: 80px;
+    height: 56vw;
+    border-radius: 40px;
+    box-shadow: 4px 6px 13px 0px rgba(0, 0, 0, .1);
+    border: 1px solid #F2F2F2;
+    background-color: white;
+  }
+
+/* ____________мерч___________ */
+
+.m345{
+  margin-top: 1vw;
+}
+
+.m1, .m2{
+  padding-top: 48px;
+  height: 56vw;
+  border-radius: 16px;
+}
+
+.m3, .m4, .m5{
+  padding-top: 48px;
+  height: 34vw;
+  border-radius: 16px;
+}
+
+.m4, .m5{
+  margin-left: 1vw;
+}
+
+/* ____________стр товара__________ */
+
+#down{
+  margin-top: 40vw;
+}
+
+.tovt{
+  margin-left: 4vw;
+}
+
+.to{
+  margin-top: 32px;
+  text-align: left;
+}
+
+.razmer{
+  margin-top: 16px;
+}
+
+.raz, .raz1{
+  padding-top: 8px;
+  padding-right: 24px;
+  padding-bottom: 8px;
+  padding-left: 24px;
+  border-radius: 40px;
+}
+
+.raz1{
+  margin-left: 1vw;
+}
+
+.gib1{
+    margin-top: 32px;
+}
+
+/* ___________404__________ */
+
+.oups{
+  font-size: 90px;
+  line-height: 100px;
+  text-align: center;
+  margin-top: 10vw;
+}
+
+.vse{
+  border-radius: 16px;
+  width: 64vw;
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+}
+
+.gib2{
+  margin-top: 24px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 36vw;
+  border-radius: 100px;
+}
+
+.can1{
+  width: 18vw;
+  transform: rotate(-70deg);
+  top: 40vw;
+  left: 22vw;
+}
+
+.bb1{
+  width: 16vw;
+  top: 15vw;
+  left: 68vw;
+}
+
+.tel1{
+  width: 9vw;
+  transform: rotate(-32deg);
+  top: 64vw;
+  left: 80vw;
+}
+
+.pla1{
+  width: 16vw;
+  top: 88vw;
+  left: 60vw;
+}
+
+.eye{
+  width: 14vw;
+  top: 66vw;
+  left: 10vw;
+}
+
+.kr1{
+  width: 20vw;
+  top: 88vw;
+  left: 12vw;
+}
+
+.zn1{
+  width: 12vw;
+  top: 24vw;
+  left: 12vw;
+}
 
 
 }
