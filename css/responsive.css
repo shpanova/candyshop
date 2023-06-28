@@ -1,6 +1,5 @@
 @media all and (min-width: 1920px) {
   a{
-      color: red;
       font-size: 30px;
     }
 
@@ -265,7 +264,6 @@
 
 @media all  and (min-width: 768px) and (max-width:1380px) {
   a{
-    color: green;
     font-size: 16px;
   }
 
@@ -1056,9 +1054,6 @@
 }
 
 @media all and (max-width: 767px){
-  a{
-      color: yellow;
-      font-size: 30px;
-    }
+
 
 }
