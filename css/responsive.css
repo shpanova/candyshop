@@ -1112,6 +1112,10 @@ h2{
   width: 20vw;
 }
 
+.menu{
+  align-items: center;
+}
+
 .nav{
   width: 260px;
 }
