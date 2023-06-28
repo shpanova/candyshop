@@ -1839,6 +1839,10 @@ width: 14vw;
   margin-left: 0px;
 }
 
+.m2, .m3, .m4, .m5{
+  margin-top: 16px;
+}
+
 .tel{
   width: 30%;
   margin-top: 8vw;
