@@ -1055,9 +1055,6 @@
 
 @media all and (max-width: 767px){
 
-body{
-  overflow-x: hidden;
-}
 
 a{
   font-size: 16px;
